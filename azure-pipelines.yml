@@ -21,8 +21,7 @@ steps:
   
 - script: python "a.py" 
 - task: PythonScript@0
-inputs: 
-scriptSource: 'inline'
-script: | 
-print('180031126 ')
-print('P.Dheeraj Section 2')
+  inputs:
+    scriptSource: 'filePath'
+    scriptPath: 'https://github.com/paladidheeraj/pythonrepo/blob/main/a.py'
+
