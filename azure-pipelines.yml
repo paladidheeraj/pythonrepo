@@ -21,7 +21,8 @@ steps:
   
 - script: python "a.py" 
 - task: PythonScript@0
-inputs: scriptSource: 'inline'
+inputs: 
+scriptSource: 'inline'
 script: | 
 print('180031126 ')
 print('P.Dheeraj Section 2')
